@@ -1,0 +1,15 @@
+﻿<Window x:Class="DataErrorBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dataErrorBox="clr-namespace:DataErrorBox"
+        Title="MainWindow"
+        Width="525"
+        Height="350">
+    <Grid>
+        <TabControl>
+            <TabItem Header="DataErrorInfo">
+                <dataErrorBox:DataErrorInfoView />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
